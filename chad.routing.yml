@@ -1,0 +1,6 @@
+chad_page:
+  path: '/chad'
+  defaults:
+    _content: 'Drupal\chad\Controller\ChadController::chadPage'
+  requirements:
+    _permission: 'view content'
