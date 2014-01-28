@@ -1,6 +1,14 @@
-chad_page:
+chad.page:
   path: '/chad'
   defaults:
     _content: 'Drupal\chad\Controller\ChadController::chadPage'
   requirements:
     _permission: 'view content'
+
+chad.settings:
+  path: '/admin/config/system/chad'
+  defaults:
+    _form: 'Drupal\chad\Form\SettingsForm'
+    _title: 'Chad Settings'
+  requirements:
+    _permission: 'administer site configuration'
