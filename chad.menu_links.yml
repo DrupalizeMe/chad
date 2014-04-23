@@ -1,0 +1,5 @@
+chatd.admin_settings:
+  title: 'Chad'
+  description: 'Configure Chad.'
+  route_name: chad.settings
+  parent: system.admin_config_system

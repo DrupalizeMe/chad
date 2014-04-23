@@ -3,16 +3,3 @@
  * @file
  * Code for the Chad module.
  */
-
-/**
- * Implements hook_menu().
- */
-function chad_menu() {
-  $items = array();
-  $items['admin/config/system/chad'] = array(
-    'title' => 'Chad',
-    'description' => 'Configure Chad.',
-    'route_name' => 'chad.settings',
-  );
-  return $items;
-}
